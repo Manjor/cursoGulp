@@ -1,10 +1,14 @@
 {
+    //define onde estão os arquivos .ts que devem ser considerados
     "files": [
         "src/**/*.ts"
     ],
     "compilerOptions": {
+        //pasta raiz
         "rootDir": "src",
+        //obriga a colocar um titulo
         "noImplicitAny": true,
-        "target": "es5"
+        //define o tipo de compilação que será realizada
+        "target": "es5" //es5 EcmaScript5
     }
 }
